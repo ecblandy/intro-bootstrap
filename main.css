@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(17, 16, 16, 0.87);
+}
+
+main {
+    background-color: rgb(252, 246, 170);
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.input-box {
+    margin-bottom: 9px;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    margin-top: 9px ;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+}
